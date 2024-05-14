@@ -27,18 +27,16 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ElectrodeGroup
-citation: Otto, Kevin; Orazem, Mark; Cogan, Stuart (2024) In vitro electrochemical
+citation: Orazem, Mark; Cogan, Stuart; Otto, Kevin (2024) In vitro electrochemical
   impedance spectroscopy data - materials (Version draft) [Data set]. DANDI archive.
   https://dandiarchive.org/dandiset/000983/draft
 contributor:
-- email: kevin.otto@bme.ufl.edu
-  identifier: 0000-0002-2317-6194
-  includeInCitation: true
-  name: Otto, Kevin
+- awardNumber: 1 UO1 NS 126052-01
+  includeInCitation: false
+  name: National Institutes of Health (NIH)
   roleName:
-  - dcite:ProjectLeader
-  - dcite:ContactPerson
-  schemaKey: Person
+  - dcite:Funder
+  schemaKey: Organization
 - email: morazem@che.ufl.edu
   identifier: 0000-0003-3668-7767
   includeInCitation: true
@@ -48,6 +46,13 @@ contributor:
   identifier: 0000-0001-6316-3032
   includeInCitation: true
   name: Cogan, Stuart
+  schemaKey: Person
+- email: kevin.otto@bme.ufl.edu
+  identifier: 0000-0002-2317-6194
+  includeInCitation: true
+  name: Otto, Kevin
+  roleName:
+  - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2024-05-06T20:59:12.283124+00:00'
 description: "Electrochemical impedance spectroscopy (EIS) data from multichannel
